@@ -4,7 +4,7 @@ R scripts for the statistical analyses and figures of the manuscript:
 
 > **Evaluation of a grapevine endophytic *Bacillus halotolerans* strain as a potential biocontrol agent: effects on *Phaeomoniella chlamydospora* infecting propagation material using a nursery practical application**
 >
-> Tsoukas C. et al. *Manuscript submitted for publication.*
+> Tsoukas C. et al. *Manuscript submitted.*
 
 The citation and DOI will be added here once the article is published.
 
@@ -33,10 +33,9 @@ Response variables: area under the disease progress curve (AUDPC), length of vas
 
 **Nursery experiments**
 
-- Each experimental group was analysed separately with linear mixed-effects models (`nlme::lme`), with treatment as a fixed effect and block as a random intercept, fitted by REML.
+- Each experimental group was analysed separately with linear mixed-effects models, with treatment as a fixed effect and block as a random intercept, fitted by REML.
 - AUDPC was log(x + 1)-transformed; vascular discoloration and fungal biomass were analysed on the original scale.
 - Model assumptions were assessed on normalized residuals with Q–Q and residual plots, the Shapiro–Wilk test (normality) and the Brown–Forsythe test (homogeneity of variance).
-- Where residual variances differed among treatments, a treatment-specific variance structure (`varIdent`) was fitted and compared with the equal-variance model by likelihood ratio test and AIC.
 - The overall treatment effect was tested with an F-test, and each treatment was compared with its control using Dunnett's test (`emmeans`, multivariate t adjustment; `set.seed(123)` for reproducibility).
 
 **Field trial**
@@ -73,7 +72,7 @@ The scripts read data from Excel files. Replace the placeholder paths (`"directo
 
 ## License
 
-This code is released under the [MIT License].
+This code is released under the MIT License.
 
 ## Contact
 
