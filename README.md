@@ -4,7 +4,7 @@ R scripts for the statistical analyses and figures of the manuscript:
 
 > **Evaluation of a grapevine endophytic *Bacillus halotolerans* strain as a potential biocontrol agent: effects on *Phaeomoniella chlamydospora* infecting propagation material using a nursery practical application**
 >
-> Tsoukas C. et al. *Manuscript submitted.*
+> Tsoukas C. et al. *Manuscript in preparation.*
 
 The citation and DOI will be added here once the article is published.
 
